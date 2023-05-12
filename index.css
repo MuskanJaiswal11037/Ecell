@@ -14,7 +14,7 @@ body{
     background-image: linear-gradient(to bottom, rgb(111, 56, 240) ,rgb(214, 39, 214), rgb(231, 26, 139));
 }
  
-
+/* 
 h4{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +25,7 @@ h4{
 
 p {
     
-    /* background-color:rgb(152, 45, 173); */
+    background-color:rgb(152, 45, 173);
     width: 500px;
     border: 4px solid rgb(53, 45, 45);
     border-radius:16px;
@@ -38,11 +38,11 @@ p {
     background-size: cover;
     font-size: 30px;
     justify-content:center;
-    /* box-shadow: 10px 10px 10px black; */
-    /* https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 */
-}
+    /* box-shadow: 10px 10px 10px black; 
+    /* https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 
+} */
 
 
 h4:hover{
     font-size:50px;
-}
+} 
