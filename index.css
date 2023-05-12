@@ -2,24 +2,19 @@
 
 
 
-h1{
+.header{
     text-align:center;
-    font-size:50px
+    font-size:33px
 }
 
 body{
     /* background-image: url("https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png"); */
-    background-repeat: repeat-y;
+    /* background-repeat: repeat-y; */
     background-size:contain;
-    background-image: linear-gradient(to bottom, rgb(127, 54, 223) ,rgb(184, 39, 189), rgb(201, 21, 141));
+    background-image: linear-gradient(to bottom, rgb(111, 56, 240) ,rgb(214, 39, 214), rgb(231, 26, 139));
 }
  
-.flex-container{
-    justify-content:center;
-    /* display:flex; */
-    flex-direction: column;
 
-}
 h4{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +31,7 @@ p {
     border-radius:16px;
     padding:35px;
     margin:20px;
-    margin-left:4z0px;
+    margin-left:340px;
    
     text-align:left;
     box-shadow: 10px 10px 10px black;
@@ -46,6 +41,8 @@ p {
     /* box-shadow: 10px 10px 10px black; */
     /* https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 */
 }
+
+
 h4:hover{
     font-size:50px;
 }
