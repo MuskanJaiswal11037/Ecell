@@ -6,13 +6,13 @@
     color:white;
    
 }
-
+/* I used flex property to arrange containers in column order with respect to each other. */
 body{
-
+  
     background-size:contain;
     background-color:#3AAFA9;
     display:flex;
-    justify-content:center;
+    /* justify-content:center; */
     flex-direction:column;
    
  
@@ -27,7 +27,7 @@ h4{
     
 }
 
-
+/* The below properties give you the box of required properties.. */
 
 p {
     
@@ -43,7 +43,7 @@ p {
     
  
 }
-
+/* When you hover on h4 tags then you can observe change in size */
 h4:hover{
     font-size:50px;
 } 
