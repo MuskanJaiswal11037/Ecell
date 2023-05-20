@@ -1,19 +1,20 @@
 
 
-
-
 .header{
     text-align:center;
-    font-size:40px;
+    font-size:38px;
     color:white;
    
 }
 
 body{
 
-    /* background-repeat: repeat-y; */
     background-size:contain;
     background-color:#3AAFA9;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+   
  
 }
  
@@ -23,32 +24,25 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size:45px;
     color:white;
-    /* color:#66FCF1; */
+    
 }
 
 
 
 p {
     
-    /* background-color:rgb(152, 45, 173); */
+   
     width: 500px;
-    border: 4px solid rgb(53, 45, 45);
     border: 4px solid black;
     border-radius:16px;
     padding:35px;
     margin:20px;
     margin-left:400px;
-   
-    text-align:left;
     box-shadow: 10px 10px 10px black;
-    background-size: cover;
     font-size: 30px;
-    justify-content:center;
-   
-   
-   
+    
+ 
 }
-
 
 h4:hover{
     font-size:50px;
